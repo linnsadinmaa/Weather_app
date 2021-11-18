@@ -126,7 +126,7 @@ hr {
   position: relative;
   width: 280px;
 }
-.change-btn {
+.search-button {
   background-color: orange;
   border: none;
   border-radius: 20px;
@@ -141,11 +141,24 @@ hr {
   transition: all 200ms ease-in-out;
 }
 
-.change-btn:hover {
+.search-button:hover {
   background-color: orange;
   font-size: 19.5px;
   opacity: 0.8;
 }
+
+.location-button {
+  display: block;
+  background-color: orange;
+  color: #fff;
+  margin-top: 0 auto;
+  border-radius: 6px;
+  transition: all 200ms ease-in-out;
+}
+.location-button:hover {
+  font-size: 17px;
+}
+
 .coder {
   color: #fff;
   font-size: 14px;
@@ -173,10 +186,6 @@ hr {
   font-size: 30px;
   margin: 9px 190px;
   position: relative;
-}
-
-.location-icon:hover {
-  cursor: pointer;
 }
 .weather-icon {
   font-size: 32px;
